@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Potabi Start</title>
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body class="overflow-x-hidden">
+        <section class="w-screen h-screen bg-gradient-to-br from-pink-900 to-pink-500 flex items-center">
+        <article class="w-screen">
+            <div class="flex items-center px-10 py-10 block">
+                <img src="https://raw.githubusercontent.com/Potabi/potabi.com/images/ico.png" class="w-24 mr-10">
+                <div class="font-thin text-3xl" id="vel-time" vel-time-format="24h"></div>
+            </div>
+            <div class="z-50 px-10" id="vel-search" vel-search-default="ecosia" vel-form-class="w-3/5 px-5 py-2" vel-button-class="px-5 py-2"></div>
+        </article>
+        </section>
+        <footer class="px-5 py-7 bg-gray-700 text-white">
+            <p>&copy; The Potabi Foundation</p>
+            <p>Start page functionality from Velstart by The Potabi Foundation</p>
+        </footer> 
+        <script src="https://cdn.jsdelivr.net/gh/PotabiFoundation/velstart@1.2/velstart.js" defer></script>
+    </body>
+</html>
